@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+   
+    <div class="container">  
+        
+        <header>
+      
+            <h1>Formulário de Cadastro</h1>
+            <h4>Preencha os dados</h4>
+              
+          </header>
+
+        <form class="formulario">
+            <div class="caja" >
+                <label for="Nome">Nome:</label>
+                <input 
+                type="text"
+                placeholder="Ingrese seu nome" 
+                id="Nome">
+            </div>
+
+            <div class="caja">
+                <label for="Data">Data de Nascimento:</label>
+                <input 
+                type="date"
+                placeholder="Ingrese sua data de nascimento:"
+                id="Data">
+            </div>
+
+            <div class="caja">
+                <label for="cpf">CPF:</label>
+                <input 
+                type="text"
+                placeholder="Ingrese seu CPF:"
+                id="cpf">
+            </div>
+
+            <div >
+                <label class="caja" for="Municipio"> Escolha um Municipio:
+                    <select id="Municipio" name="Municipio" >
+                          <option disabled selected>Escolha uma opcao
+                    </option >
+                  <option value="Antônio Carlos">Antônio Carlos</option>
+                  <option value="Biguaçu">Biguaçu</option>
+                  <option value="Biguaçu">Florianópolis</option>
+                  <option value="Biguaçu">Palhoça</option>
+                  <option value="Biguaçu">Alfredo Wagner</option>
+                  <option value="Biguaçu">Anitápolis</option>
+                  <option value="Biguaçu">Angelina</option>
+                  </select>
+                  </label>
+            </div>
+            <br>
+            <br>
+
+            <button type="submit">
+                SUBMIT
+
+            </button>
+
+        </form>
+
+    </div> 
+</body>
+</html>
